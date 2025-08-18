@@ -1,38 +1,35 @@
-
--- Load Rayfield UI Library
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
--- Services
-local Players = game:GetService("Players")
-local RunService = game:GetService("RunService")
-local UserInputService = game:GetService("UserInputService")
-local LocalPlayer = Players.LocalPlayer
-local camera = workspace.CurrentCamera
-
--- Window Setup
 local Window = Rayfield:CreateWindow({
-    Name = "Csoul",
-    LoadingTitle = "99 Nights Script",
-    LoadingSubtitle = "by ian",
+    Name = "CSOUL",
+    Icon = 0,
+    LoadingTitle = "99 night in the forest",
+    LoadingSubtitle = "by IAN",
+    Theme = "Default",
+    ToggleUIKeybind = "K",
+
     ConfigurationSaving = {
         Enabled = true,
-        FolderName = nil,
-        FileName = "99NightsSettings"
+        FileName = "CSOUL"
     },
+
     Discord = {
         Enabled = true,
         Invite = "5vTzHp5U",
         RememberJoins = true
     },
+
     KeySystem = true,
-})KeySettings = {
-      Title = "Csoul",
-      Subtitle = "Key System",
-      Note = "join our discord for the key"
-      FileName = "Key",
-      SaveKey = false,
-      GrabKeyFromSite = false,
-      Key = {"TEST","boss"}
+    KeySettings = {
+        Title = "CSOUL",
+        Subtitle = "Authentication",
+        Note = "get key at our discord",
+        FileName = "KEY",
+        SaveKey = false,
+        Key = {"TEST"}
+    }
+})
+
 
 -- Variables
 local teleportTargets = {
