@@ -25,8 +25,15 @@ local Window = Rayfield:CreateWindow({
         Invite = "",
         RememberJoins = true
     },
-    KeySystem = false,
-})
+    KeySystem = true,
+Keysettings = {
+Title = "Csoulkey"
+Subtitle = "99nightinforest"
+Note = "get key at lootlink by joining the discord"
+Filename = "key"
+SaveKey = false,
+GrabKeyFromSite = false,
+Key = {"GOAT"}
 
 -- Variables
 local teleportTargets = {
