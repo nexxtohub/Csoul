@@ -26,11 +26,11 @@ local Window = Rayfield:CreateWindow({
         RememberJoins = true
     },
     KeySystem = true,
-Keysettings = {
-Title = "Csoulkey"
-Subtitle = "99nightinforest"
-Note = "get key at lootlink by joining the discord"
-Filename = "key"
+KeySettings = {
+Title = "Csoulkey",
+SubTitle = "99nightinforest",
+Note = "get key at lootlink by joining the discord",
+FileName = "key",
 SaveKey = false,
 GrabKeyFromSite = false,
 Key = {"GOAT"}
